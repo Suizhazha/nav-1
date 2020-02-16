@@ -88,7 +88,7 @@ $(document).on("keypress", e => {
   const { key } = e; //相当于const key = e.key
   for (let i = 0; i < hashMap.length; i++) {
     if (hashMap[i].logo.toLowerCase() === key) {
-      window.open(hashMap[i].url);
+        window.open(hashMap[i].url)
     }
   }
 }); //监听键盘事件
